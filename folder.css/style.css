@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=League+Spartan:wght@100;200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Clicker Script', cursive;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+
+}
+body{
+    height: 150vh;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .buttons ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+}
+li{
+    
+    margin-left: 25px;
+}
+ul a{
+    text-decoration: none;
+    color: var(--Desaturated-Blue);
+    transition: 0.5s;
+}
+a:hover {
+    color: var(--Bright-Blue);
+}
+
+section{
+   margin-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.images{
+    width: 300px;
+    height: 30px;
+    width: 300px;
+    height: 235px;
+    margin-left: 19px;}
+.images img{
+    width: 100%;
+    height: 100%;
+}
+.textplace{
+    margin-top: 50px;
+}
+section h2{
+color: var(--Very-Dark-Blue);
+line-height: 40px;
+font-weight: bold;
+font-size: 25px;
+}
+section p{
+    margin-top: 20px;
+    color: var(--Very-Dark-Blue);
+    font-size: 11px;
+    
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.button{
+    border: 1px solid transparent;
+    border-radius:  2px;
+    margin-left: 5px;
+    padding-left: 23px;
+    padding-right: 10px;
+    background-color: var( --Bright-Blue);
+    width: 110px;
+    height: 24px;
+}
+.button:hover{
+    background-color: rgb(93, 164, 234) ;
+}
+.button .btn-1{
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+
+   
+}
+.two{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+     margin-top: 200px;
+}
+.two .picture{
+   margin-top: 60px;
+    width: 300px;
+    height: 235px;
+    }
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+
+.two .create{
+    display: flex;
+   flex-direction: column;
+ 
+}
+
+.two .textarea{
+
+}
+.two .textarea h2{
+    color: var(--Very-Dark-Blue);
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.two .textarea .text{
+    margin-top: 20px;
+    color: var(--Very-Dark-Blue);
+    font-size: 11px;
+}
+.two .textarea .two{
+    margin-top: 12px;
+}
+.two .textarea .box{
+    position: relative;
+display: flex;
+flex-direction: row-reverse;
+justify-content: left;
+
+}
+
+
+  
+
+.two .textarea .box .images{
+    width: 15px;
+    height: 15px;
+    margin-top: 18px;
+    position: absolute;
+    left: 140px;
+  
+}
+.two .textarea .box .images:hover{
+    color: rgb(95, 228, 221);
+}
+.two .textarea .box .title{
+    text-decoration: none;
+    color:var(--Moderate-Cyan); ;
+    position: relative;
+    margin-top: 18px;
+}
+.title:before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 175px;
+    height: 2px;
+    background-color: var(--Moderate-Cyan);
+    left: 0px;
+    top: 18px;
+}
+.two .textarea .box .title:hover{
+    color: rgb(95, 228, 221);
+}
+    .card{
+       margin-top: 60px;
+       display: flex;
+       flex-direction: column;
+       width: 308px;
+       height: 200px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+
+box-shadow:1px 1px 9px 2px rgba(0,0,0,0.69)
+        /* box shadow */
+      
+    }
+    .card .place{
+        margin: 10px 20px 10px 20px;
+    }
+    .card .place p{
+        font-weight: bold;
+        line-height: 20px;
+    }
+    .card .place .profile{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+
+    }
+    .card .place .profile .photo{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .card .place .profile .photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .card .place .profile .name{
+       display: flex;
+       flex-direction: column;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    
+    .card .place .profile .name .first{
+   color: #222;
+   font-size: 12px;
+   font-weight: bold;
+    }
+    .card .place .profile .name .last{
+        color: rgb(90, 85, 85);
+        font-size: 08px;
+        
+        
+         }
+         .three{
+display: flex;
+flex-direction: row;
+background-color: rgb(102, 102, 168);
+padding: 40px 20px 40px 20px ;
+         }
+
+.text h2{
+    color: var(--Light-Gray);
+    line-height: 40px;
+    font-weight: bold;
+}
+.text p{
+ font-size: 12px;
+ color: var(--Light-Gray);
+ line-height: 20px;  
+}
+.three{
+   
+}
+.three .bar{
+    display: flex;
+    flex-direction: column;
+    
+}
+.three .bar .button{
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius:  2px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-left: 23px;
+    padding-right: 10px;
+    background-color: var( --Bright-Blue);
+    width: 140px;
+    height: 35px;
+    
+}
+.three .bar .button:hover{
+    background-color: rgb(93, 164, 234) ;
+}
+
+
+
+
+         .four{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Very-Dark-Blue);
+    justify-content: space-evenly;
+}
+.four .box1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.four .box1 .imglogo img{
+    color: #fff;
+   
+}
+.four .box1 .phone{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.four .box1 .phone .icon{
+   
+}
+.four .box1 .phone   .number p{
+   margin-left: 10px;
+    color: #fff;
+}
+.four .box1 .email{
+    display: flex;
+    flex-direction: row;
+
+
+   
+}
+.four .box1 .email .adress p{
+    margin-left: 10px;
+    color: #fff;
+ 
+   
+}
+.four .box2{
+    margin-top: 135px;
+}
+
+.four .box2 ul{
+    list-style: none;
+    
+}
+.four .box2 ul li{
+    margin-bottom: 10px;
+}
+.four .box3{
+    margin-top: 135px;
+}
+.four .box3 ul{
+    list-style: none;
+    
+}
+.four .box3 ul li{
+    margin-bottom: 10px;
+}
+.four .box4{
+    margin-top: 135px;  
+    display: flex;
+    flex-direction: row;
+    
+}
+.four .box4 i{
+    color: #fff;
+    margin: 0 5px 0 5px ;
+    transition: all 0.5s;
+
+}
+.four .box4 i:hover{
+    color: var(--Bright-Blue);
+}
+@media (min-width:350px) and (max-width:1000px)
+{
+
+    body{
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    header{
+        justify-content: center;
+    }
+    header .logo img{
+       /*you need to know how you can contrel the size image*/
+       height: 20px;
+       width: 60px;
+    }
+    header .buttons ul li a{
+        font-size: 12px;
+    }
+    section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    section .textplace{
+       text-align: center;
+    }
+    .two{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .two .create{
+        text-align: center;
+    }
+    .three{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .three .bar .button{
+        
+        margin-left: 70px;
+}
+.four{
+    flex-direction: column;
+    padding-left: 20px;
+}
+.four .box1 .imglogo img{
+    width: 60px;
+    height: 20px;
+   color: #fff;
+}
+.four .box4{
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+}
