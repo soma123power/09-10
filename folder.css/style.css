@@ -302,11 +302,11 @@ padding: 40px 20px 40px 20px ;
     margin-top: 50px;
     
 }
-
 .four .box1 .imglogo img{
-    color: #fff;
-   
+    width: 80px ;
+    height: 25px
 }
+
 .four .box1 .phone{
     margin-top: 15px;
     display: flex;
